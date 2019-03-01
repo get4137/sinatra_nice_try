@@ -1,4 +1,8 @@
+require 'rubygems'
+require 'bundler'
+Bundler.require
 require 'sinatra'
+
 def under_construction
   @tittle = 'Something'
   @message = 'This page is under construction'

@@ -16,7 +16,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler!
   sinatra!
 
 BUNDLED WITH
-   1.16.1
+   2.0.1

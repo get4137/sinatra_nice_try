@@ -16,7 +16,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler!
   sinatra!
 
 BUNDLED WITH

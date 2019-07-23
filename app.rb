@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'sinatra'
 
 get '/' do
@@ -10,8 +12,8 @@ post '/' do
   if @login == 'admin' && @password == 'secret'
     erb :welcome
   elsif @login == 'admin' && @password == 'admin'
-      @authorization = 'ha-ha, nice try, false'
-      erb :index
+    @authorization = 'ha-ha, nice try, false'
+    erb :index
   else
     @authorization = 'false'
     erb :index
